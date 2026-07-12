@@ -117,7 +117,7 @@ jobs:
       - name: Checkout toolchain
         uses: actions/checkout@v7
         with:
-          repository: Andarwinux/mpv-winbuild-cmake
+          repository: esator/mpv-winbuild-cmake
           path: mpv-winbuild-cmake
           fetch-depth: 0
 
